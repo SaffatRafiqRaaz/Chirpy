@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center" />
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="85dp"
+            android:background="@drawable/logo"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"
+            android:text="Chirpy is an autonomous response app.Set an alert for a time period for a specific contact or set a general alert for all missed calls without selecting a specific contact.If the contact misses call to the user the app will notify the contact with respective SMS.Each contact will receive SMS only once before the entry is deleted.Use minimize to keep the app active in the background.Use close to clear all entries and quit app."/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="400dp"
+            android:textColor="#ffdd00"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:text="An app by : Saffat Rafiq Raaz\n                 Noor Islam Sunny"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

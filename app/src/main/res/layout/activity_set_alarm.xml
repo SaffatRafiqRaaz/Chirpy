@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/setalarm">
+
+    <Button
+        android:id="@+id/starttime"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:background="#6fffb2"
+        android:textColor="#1b599d"
+        android:text="Set Start Time"/>
+    <Button
+        android:id="@+id/endtime"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#6fffb2"
+        android:textColor="#1b599d"
+        android:text="Set End Time"/>
+    <Button
+        android:id="@+id/contacts"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#6fffb2"
+        android:textColor="#1b599d"
+        android:text="Select user"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="#6fffb2"
+        android:textColor="#1b599e"
+        android:textStyle="bold"
+        android:text="Enter the message"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:background="#FFFF"
+        android:hint="Alert Message"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#6fffb2"
+        android:textColor="#1b599d"
+        android:text="Submit"/>
+</LinearLayout>
